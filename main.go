@@ -24,5 +24,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Print(pkg.ImportPath)
+	fmt.Println(pkg.ImportPath)
 }
