@@ -4,7 +4,7 @@
 #### Usage
 `pwdip` has no flags or arguments (yet).
 
-When the working directory is not located in the GOPATH, `pwdip` returns an error.
+When the working directory is not located in the GOPATH, `pwdip` prints an error to `stderr` and exits with status code 1.
 
 `pwdip` does not validate the package, it only finds the import path.
 
