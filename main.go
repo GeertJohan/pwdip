@@ -13,7 +13,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	pkg, err := build.ImportDir(wd, build.FindOnly)
+	pkg, err := build.ImportDir(wd, build.ImportComment)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "can not find import path: %v\n", err)
 		os.Exit(1)
